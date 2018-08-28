@@ -1,14 +1,10 @@
-\documentclass[12pt, letterpaper]{article}
+---
+title: "Tex File Style Tips"
+author: "Jieying Jiao"
+date: \today
+output: pdf_document
+---
 
-
-\usepackage{fullpage}
-
-\title{Tex File Style Tips}
-\author{Jieying Jiao}
-\date{\today}
-
-\begin{document}
-\maketitle
 \begin{enumerate}
     \item No space before a paragraph. Use two blank lines to seperate paragraphs 
     and no space in blank line.
@@ -33,4 +29,3 @@
 \end{enumerate}
 
 
-\end{document}
