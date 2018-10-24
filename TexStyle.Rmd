@@ -24,4 +24,4 @@ output: pdf_document
 1. Show simulation settings in detail so that readers can reproduce your
    results. Always justify your simulation settings.
 1. Never use "h" in floating table/figure.
-1. test
+1. new branch test
