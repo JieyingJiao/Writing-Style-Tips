@@ -5,25 +5,46 @@ date: \today
 output: pdf_document
 ---
 
-1. No space before a paragraph. Use two blank lines to seperate paragraphs and
-   no space in blank line.
-1. Make line width below 80.
-1. Do not start a scentence with symbol.
-1. No comma and long words in math mode.
-1. Put a space before every left parenthesis.
-1. Explain each symbols after equations/formulas starting with "where" so
-   that readers fully understand them. Explanations for one equation/formula
-   should put in one single scentence. No blank line so that no new paragraph
-   is started before or after math mode.
-1. Put captions for tables on top while captions for figures on bottom.
-1. Use "Table", "Figure", "Equation" when cite them. Make first letter be
-   capital and do not use abbrivation.
-1. Do not change font size for tables. Change table layout to fit instead
-   of resizing it. Try to avoid sideways table.
-1. Use past tense to describe the data generation in simulation studies.
-1. Show simulation settings in detail so that readers can reproduce your
-   results. Always justify your simulation settings.
-1. Never use "h" in floating table/figure.
+# tex file style
+\begin{enumerate}
+\item No space before a paragraph. Use two blank lines to seperate paragraphs and
+      no space in blank line.
+\item Make line width below 80.
+\item Do not start a scentence with symbol.
+\item No comma and long words in math mode.
+\item Put a space before every left parenthesis.
+\item Explain each symbols after equations/formulas starting with "where" so
+      that readers fully understand them. Explanations for one equation/formula
+      should put in one single scentence. Never end a scentence with undefined 
+      symbol. No blank line so that no new paragraph
+      is started before or after math mode.
+\item Put captions for tables on top while captions for figures on bottom.
+\item Use "Table", "Figure", "Equation" when cite them. Make first letter be
+      capital and do not use abbrivation.
+\item Do not change font size for tables. Change table layout to fit instead
+      of resizing it. Try to avoid sideways table.
+\item Use past tense to describe the data generation in simulation studies.
+\item Show simulation settings in detail so that readers can reproduce your
+      results. Always justify your simulation settings.
+\item Never use "h" in floating table/figure.
+\item For figures in tex, name the files informatively.
+\item Label the equation, table and figures and label them use the informative 
+      name.
+\item Use pdf or eps for figure file. Don't use png file since it's not vector 
+      graphics and will lose resolution when resize.
+\item Label and cite each each section if needed. Never use the number to 
+      represent a section, like "Section two is about ..."
+\item For plots with different lines, use different line pattern to distinguish 
+      them, not only color, so that readers can tell the difference when print 
+      them out.
+\end{enumerate}
 
-1. test new branch
-
+# bibtex file stype
+\begin{enumerate}
+\item Delete repeated entry.
+\item Capitalize first letter of every words in title, except articles, 
+      prepositions, or coordinating conjunctions like "a", "in", "and".
+\item Always check the bibtex information downloaded from website. There might 
+      be wrong or incomplete information.
+\item Use informative label for each entry: "Lastname + First word in title + year".
+\end{enumerate}
