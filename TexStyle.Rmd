@@ -5,7 +5,7 @@ date: \today
 output: pdf_document
 ---
 
-# tex file style
+# Manuscript style
 \begin{enumerate}
 \item No space before a paragraph. Use two blank lines to seperate paragraphs and
       no space in blank line.
@@ -13,30 +13,50 @@ output: pdf_document
 \item Do not start a scentence with symbol.
 \item No comma and long words in math mode.
 \item Put a space before every left parenthesis.
-\item Explain each symbols after equations/formulas starting with "where" so
+\item Explain each symbols after equations/formulas starting with ```where'' so
       that readers fully understand them. Explanations for one equation/formula
       should put in one single scentence. Never end a scentence with undefined 
       symbol. No blank line so that no new paragraph
       is started before or after math mode.
 \item Put captions for tables on top while captions for figures on bottom.
-\item Use "Table", "Figure", "Equation" when cite them. Make first letter be
+\item Use ``Table'', ``Figure'', ``Equation'' when cite them. Make first letter be
       capital and do not use abbrivation.
 \item Do not change font size for tables. Change table layout to fit instead
       of resizing it. Try to avoid sideways table.
 \item Use past tense to describe the data generation in simulation studies.
 \item Show simulation settings in detail so that readers can reproduce your
       results. Always justify your simulation settings.
-\item Never use "h" in floating table/figure.
-\item For figures in tex, name the files informatively.
-\item Label the equation, table and figures and label them use the informative 
+\item Figures/tables and other floaters are always positioned with tbp. Never use           ``h'' in floating table/figure.
+\item For plot files in tex, name the files informatively.
+\item Label equations, tables and figures and label them use informative 
       name.
 \item Use pdf or eps for figure file. Don't use png file since it's not vector 
       graphics and will lose resolution when resize.
 \item Label and cite each each section if needed. Never use the number to 
-      represent a section, like "Section two is about ..."
+      represent a section, like ``Section two is about ...''
 \item For plots with different lines, use different line pattern to distinguish 
       them, not only color, so that readers can tell the difference when print 
-      them out.
+      them out. Same for different dots on plots.
+\item No space in object (file/project/variable) names.
+\item One sentence about the findings from the real data analysis in abstract.
+\item Don't repeat title words in keywrods. 
+\item Use citep when cite paper with parentheses.
+\item Keep figure aspect ratio correct if the figure has realistic meaning. Like 
+      a basketball half court should be 50/47.
+\item In math mode, use different sized parentheses for better view.
+\item Even equations need punctuations.
+\item Define the distribution instead of distribution name only. Like G(a, b), 
+      don't only define that G is shorthand of Gamma.
+\item In math formulas, don't use times unless in a new line.
+\item Put enough space in math formulas for better view in source.
+\item Don't label a formula if not referenced.
+\item No inline frac.
+\item Use a consisten labeling system, like sec, fig, tab, eq, alg, etc.
+\end{enumerate}
+
+# Manuscript content style
+\begin{enumerate}
+\item In general, open the abstract with a background of the research problem.
 \end{enumerate}
 
 # bibtex file stype
