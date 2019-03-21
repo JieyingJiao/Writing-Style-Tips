@@ -11,7 +11,7 @@ output: pdf_document
       no space in blank line.
 \item Make line width below 80.
 \item Do not start a scentence with symbol.
-\item No comma and long words in math mode.
+\item No comma and long words in inline math mode.
 \item Put a space before every left parenthesis.
 \item Explain each symbols after equations/formulas starting with ```where'' so
       that readers fully understand them. Explanations for one equation/formula
@@ -20,43 +20,88 @@ output: pdf_document
       is started before or after math mode.
 \item Put captions for tables on top while captions for figures on bottom.
 \item Use ``Table'', ``Figure'', ``Equation'' when cite them. Make first letter be
-      capital and do not use abbrivation.
-\item Do not change font size for tables. Change table layout to fit instead
-      of resizing it. Try to avoid sideways table.
+      capital and do not use abbrevation.
 \item Use past tense to describe the data generation in simulation studies.
 \item Show simulation settings in detail so that readers can reproduce your
       results. Always justify your simulation settings.
-\item Figures/tables and other floaters are always positioned with tbp. Never use           ``h'' in floating table/figure.
+\item Figures/tables and other floaters are always positioned with ``tbp''. 
+      Never use ``h'' in floating table/figure.
 \item For plot files in tex, name the files informatively.
-\item Label equations, tables and figures and label them use informative 
-      name.
-\item Use pdf or eps for figure file. Don't use png file since it's not vector 
-      graphics and will lose resolution when resize.
+\item Label equations, tables and figures which will be referenced and label 
+      them use informative name. Don't label those which won't be referenced.
 \item Label and cite each each section if needed. Never use the number to 
       represent a section, like ``Section two is about ...''
+\item No space in object or identifier (file/project/variable/label) names.
+\item Don't repeat title words in keywrods. 
+\item Use ``citep'' when cite paper with parentheses.
+\item In math mode, use different sized parentheses for better view.
+\item Equations in display math mode need punctuations. (Comma and period.)
+\item Define the distribution instead of distribution name only. Like G(a, b), 
+      don't only define that G is shorthand of Gamma.
+\item In math formulas, don't use ``$\times$'' for multiplying unless in a new line.
+\item Put enough space in math formulas for better view in source.
+\item No inline ``frac''.
+\item Use a consisten labeling system, like sec, fig, tab, eq, alg, etc.
+\item Do not define unnecessary symbol. Use reasonable and simple symbol, eg, 
+      don't use $a_1$ if you don't have an $a_2$, just $a$ is enough.
+\item Use ``$\backslash$dd'' for differentiation operator.
+\item Cite paper instead of book for appropriate credit.
+\item Close the sentence with a period, even in an equation.
+\item Never start a sentence with ``And''.
+\item When discussing results, set up a few bullet points on what you see in the 
+      results. Then say them in a nice flow.
+\item Avoid a number starting a new line. Use tilde in tex source file to connect 
+      text and number.
+\item Cite equations through ``eqref'' not ``ref''.
+\item Never use abbreviation, like ``don't''.
+\item Delete extra empty rows.
+\item Don't use bullet points in a paper. Put them in a nice paragraph.
+\item No brackets in citing sections/tables/figures.
+\item Don't break lines in inline math mode.
+\item Use vector form if possible instead of summation.
+\item When cite a formula/equation, don't use word ``Formula'' or ``Equation'', 
+      just directly cite it using ``eqref''.
+\item Use a different font for code.
+\item Learn how to use ``and'' when listing. Don't use ``$\$a, b\$$'', use 
+      ``$\$a\$$ and $\$b\$$'' (no comma in inline math mode).
+\item Always spell check.
+\item When revise the paper, answer how the comments are addressed, in blue. 
+      When the comments are solved, just delete that comments.
+\end{enumerate}
+
+
+# Figure style
+\begin{enumerate}
+\item Use pdf or eps for figure file. Don't use png file since it's not vector 
+      graphics and will lose resolution when resize.
 \item For plots with different lines, use different line pattern to distinguish 
       them, not only color, so that readers can tell the difference when print 
       them out. Same for different dots on plots.
-\item No space in object (file/project/variable) names.
-\item One sentence about the findings from the real data analysis in abstract.
-\item Don't repeat title words in keywrods. 
-\item Use citep when cite paper with parentheses.
-\item Keep figure aspect ratio correct if the figure has realistic meaning. Like 
-      a basketball half court should be 50/47.
-\item In math mode, use different sized parentheses for better view.
-\item Even equations need punctuations.
-\item Define the distribution instead of distribution name only. Like G(a, b), 
-      don't only define that G is shorthand of Gamma.
-\item In math formulas, don't use times unless in a new line.
-\item Put enough space in math formulas for better view in source.
-\item Don't label a formula if not referenced.
-\item No inline frac.
-\item Use a consisten labeling system, like sec, fig, tab, eq, alg, etc.
+\item Don't use red and green for different in plots in order to be color blind 
+      friendly.
+\item Keep figure aspect ratio correct if the figure has realistic meaning. 
+      Like a basketball half court should be 50/47.
+\item Remove extra margin in plot.
+\item When change plot size in latex, keep the ratio fixed.
+\end{enumerate}
+
+
+# Table style
+\begin{enumerate}
+\item Do not change font size for tables. Change table layout to fit instead
+      of resizing it. Try to avoid sideways table.
+\item Use booktabs effectively. Don't use ``hline'' in table. Use ``toprule'', 
+      ``midrule'', ``bottomrule''.
+\item When display estimatng results, put variable names in a table, instead of 
+      their coefficients.
+\item Protect negative sign in the table.
+\item right adjust the numbers in tables.
 \end{enumerate}
 
 # Manuscript content style
 \begin{enumerate}
 \item In general, open the abstract with a background of the research problem.
+\item One sentence about the findings from the real data analysis in abstract.
 \end{enumerate}
 
 # bibtex file stype
