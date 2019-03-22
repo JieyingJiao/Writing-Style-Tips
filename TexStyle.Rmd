@@ -16,14 +16,12 @@ output: pdf_document
 \item Explain each symbols after equations/formulas starting with ```where'' so
       that readers fully understand them. Explanations for one equation/formula
       should put in one single scentence. Never end a scentence with undefined 
-      symbol. No blank line so that no new paragraph
-      is started before or after math mode.
+      symbol. No blank line so that no new paragraph is started before or 
+      after math mode (Don't put formula alone as a paragraph).
 \item Put captions for tables on top while captions for figures on bottom.
 \item Use ``Table'', ``Figure'', ``Equation'' when cite them. Make first letter be
       capital and do not use abbrevation.
 \item Use past tense to describe the data generation in simulation studies.
-\item Show simulation settings in detail so that readers can reproduce your
-      results. Always justify your simulation settings.
 \item Figures/tables and other floaters are always positioned with ``tbp''. 
       Never use ``h'' in floating table/figure.
 \item For plot files in tex, name the files informatively.
@@ -41,15 +39,14 @@ output: pdf_document
 \item In math formulas, don't use ``$\times$'' for multiplying unless in a new line.
 \item Put enough space in math formulas for better view in source.
 \item No inline ``frac''.
-\item Use a consisten labeling system, like sec, fig, tab, eq, alg, etc.
+\item Use a consistent labeling system, like sec, fig, tab, eq, alg, etc.
 \item Do not define unnecessary symbol. Use reasonable and simple symbol, eg, 
       don't use $a_1$ if you don't have an $a_2$, just $a$ is enough.
-\item Use ``$\backslash$dd'' for differentiation operator.
+\item Use ``$\backslash$dd'' for differentiation operator. Define new command: 
+      $\backslash$newcommand\{$\backslash$dd\}\{$\backslash$mathrm\{d\}\}.
 \item Cite paper instead of book for appropriate credit.
 \item Close the sentence with a period, even in an equation.
 \item Never start a sentence with ``And''.
-\item When discussing results, set up a few bullet points on what you see in the 
-      results. Then say them in a nice flow.
 \item Avoid a number starting a new line. Use tilde in tex source file to connect 
       text and number.
 \item Cite equations through ``eqref'' not ``ref''.
@@ -64,6 +61,7 @@ output: pdf_document
 \item Use a different font for code.
 \item Learn how to use ``and'' when listing. Don't use ``$\$a, b\$$'', use 
       ``$\$a\$$ and $\$b\$$'' (no comma in inline math mode).
+\item Use uppercase letter for random variable.
 \item Always spell check.
 \item When revise the paper, answer how the comments are addressed, in blue. 
       When the comments are solved, just delete that comments.
@@ -102,6 +100,12 @@ output: pdf_document
 \begin{enumerate}
 \item In general, open the abstract with a background of the research problem.
 \item One sentence about the findings from the real data analysis in abstract.
+\item When introduce the model or method you use, directly start from the data 
+      and then introduce the model, method. Don't write like a review paper.
+\item When discussing results, set up a few bullet points on what you see in the 
+      results. Then say them in a nice flow.
+\item Show simulation settings in detail and clearly so that readers can 
+      reproduce your results. Always justify your simulation settings.
 \end{enumerate}
 
 # bibtex file stype
@@ -112,4 +116,5 @@ output: pdf_document
 \item Always check the bibtex information downloaded from website. There might 
       be wrong or incomplete information.
 \item Use informative label for each entry: "Lastname + First word in title + year".
+\item For books, use title style.
 \end{enumerate}
