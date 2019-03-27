@@ -1,5 +1,5 @@
 ---
-title: "Tex File Style Tips"
+title: "Manuscript Style Tips"
 author: "Jieying Jiao"
 date: \today
 output: pdf_document
@@ -7,6 +7,9 @@ output: pdf_document
 
 # Manuscript style
 \begin{enumerate}
+\item Always spell check.
+\item When revising the paper, answer how the comments are addressed, in blue. 
+      When the comments are solved, just delete that comments.
 \item No space before a paragraph. Use two blank lines to seperate paragraphs and
       no space in blank line.
 \item Make line width below 80.
@@ -24,7 +27,6 @@ output: pdf_document
 \item Use past tense to describe the data generation in simulation studies.
 \item Figures/tables and other floaters are always positioned with ``tbp''. 
       Never use ``h'' in floating table/figure.
-\item For plot files in tex, name the files informatively.
 \item Label equations, tables and figures which will be referenced and label 
       them use informative name. Don't label those which won't be referenced.
 \item Label and cite each each section if needed. Never use the number to 
@@ -33,7 +35,6 @@ output: pdf_document
 \item Don't repeat title words in keywrods. 
 \item Use ``citep'' when cite paper with parentheses.
 \item In math mode, use different sized parentheses for better view.
-\item Equations in display math mode need punctuations. (Comma and period.)
 \item Define the distribution instead of distribution name only. Like G(a, b), 
       don't only define that G is shorthand of Gamma.
 \item In math formulas, don't use ``$\times$'' for multiplying unless in a new line.
@@ -62,9 +63,7 @@ output: pdf_document
 \item Learn how to use ``and'' when listing. Don't use ``$\$a, b\$$'', use 
       ``$\$a\$$ and $\$b\$$'' (no comma in inline math mode).
 \item Use uppercase letter for random variable.
-\item Always spell check.
-\item When revise the paper, answer how the comments are addressed, in blue. 
-      When the comments are solved, just delete that comments.
+\item Any equation needs to be part of a sentence. Punctuation are needed.
 \end{enumerate}
 
 
@@ -75,12 +74,15 @@ output: pdf_document
 \item For plots with different lines, use different line pattern to distinguish 
       them, not only color, so that readers can tell the difference when print 
       them out. Same for different dots on plots.
-\item Don't use red and green for different in plots in order to be color blind 
-      friendly.
+\item Don't use red and green for different in plots. Some people are 
+      red-green blind.
 \item Keep figure aspect ratio correct if the figure has realistic meaning. 
       Like a basketball half court should be 50/47.
 \item Remove extra margin in plot.
 \item When change plot size in latex, keep the ratio fixed.
+\item For plot files in tex, name the files informatively.
+\item Do not put the figures in an upper level directory. Should be in the
+      same directory or a subdirectory.
 \end{enumerate}
 
 
@@ -88,12 +90,12 @@ output: pdf_document
 \begin{enumerate}
 \item Do not change font size for tables. Change table layout to fit instead
       of resizing it. Try to avoid sideways table.
-\item Use booktabs effectively. Don't use ``hline'' in table. Use ``toprule'', 
+\item Use booktabs effectively. Never use ``hline'' in table. Use ``toprule'', 
       ``midrule'', ``bottomrule''.
 \item When display estimatng results, put variable names in a table, instead of 
       their coefficients.
 \item Protect negative sign in the table.
-\item right adjust the numbers in tables.
+\item Right adjust the numbers in tables.
 \end{enumerate}
 
 # Manuscript content style
@@ -106,6 +108,9 @@ output: pdf_document
       results. Then say them in a nice flow.
 \item Show simulation settings in detail and clearly so that readers can 
       reproduce your results. Always justify your simulation settings.
+\item Put technical details in Appendix.
+\item Use pricise expression. If you can present clearly use less words, then 
+      don't use more in order to make it longer.
 \end{enumerate}
 
 # bibtex file stype
@@ -117,4 +122,5 @@ output: pdf_document
       be wrong or incomplete information.
 \item Use informative label for each entry: "Lastname + First word in title + year".
 \item For books, use title style.
+\item Protect capital letters using ``$\{\}$''.
 \end{enumerate}
