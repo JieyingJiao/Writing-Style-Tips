@@ -64,6 +64,7 @@ output: pdf_document
       ``$\$a\$$ and $\$b\$$'' (no comma in inline math mode).
 \item Use uppercase letter for random variable.
 \item Any equation needs to be part of a sentence. Punctuation are needed.
+\item Break long inline math expressions into multiple pieces.
 \end{enumerate}
 
 
