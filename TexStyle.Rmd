@@ -35,7 +35,7 @@ output: pdf_document
 \item Don't repeat title words in keywrods. 
 \item Use ``citep'' when citing paper with parentheses. If the previous definition
       has a specific abbreviation, such as the Akaike Information criterion,
-      use ``citep[AIC;][akaike1973]‘’.
+      use ``citep[AIC;][akaike1973]''.
 \item In math mode, use different sized parentheses for better view.
 \item Define the distribution instead of distribution name only. Like G(a, b), 
       don't only define that G is shorthand of Gamma.
@@ -76,7 +76,7 @@ output: pdf_document
 \begin{enumerate}
 \item Use pdf or eps for figure file. Do not use png file since it is not vector 
       graphics and will lose resolution when resize.
-\item For line plots plots with different groups, use different line pattern to
+\item For line plots with different groups, use different line pattern to
       distinguish them, not only color, so that readers can tell the difference
       when printing them out. Same for different dots on plots.
 \item Do not use red and green for different in plots. Some people are 
