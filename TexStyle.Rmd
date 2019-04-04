@@ -35,7 +35,7 @@ output: pdf_document
 \item Don't repeat title words in keywrods. 
 \item Use ``citep'' when citing paper with parentheses. If the previous definition
       has a specific abbreviation, such as the Akaike Information criterion,
-      use ``citep[AIC;][akaike1973]".
+      use ``citep[AIC;][akaike1973]‘’.
 \item In math mode, use different sized parentheses for better view.
 \item Define the distribution instead of distribution name only. Like G(a, b), 
       don't only define that G is shorthand of Gamma.
@@ -121,10 +121,10 @@ output: pdf_document
 \begin{enumerate}
 \item Delete repeated entries.
 \item Capitalize first letter of every words in title, except articles, 
-      prepositions, or coordinating conjunctions like "a", "in", "and".
+      prepositions, or coordinating conjunctions like ``a'', ``in'', ``and''.
 \item Always check the bibtex information downloaded from website. There might 
       be wrong or incomplete information.
-\item Use informative label for each entry: "Lastname + First word in title + year".
+\item Use informative label for each entry: ``Lastname + First word in title + year''.
 \item For books, use title style.
 \item Protect capital letters using ``$\{\}$''.
 \end{enumerate}
