@@ -29,7 +29,7 @@ output: pdf_document
       Never use ``h'' in floating table/figure.
 \item Label equations, tables and figures which will be referenced and label
       them use informative name. Don't label those which won't be referenced.
-\item Label and cite each each section if needed. Never use the number to
+\item Label and cite each section if needed. Never use the number to
       represent a section, like ``Section two is about ...''
 \item No space in object or identifier (file/project/variable/label) names.
 \item Don't repeat title words in keywrods.
