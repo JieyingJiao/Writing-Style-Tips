@@ -8,7 +8,7 @@ output: pdf_document
 # Manuscript style
 \begin{enumerate}
 \item Always spell check.
-\item When revising the paper, answer how the comments are addressed, in blue. 
+\item When revising the paper, answer how the comments are addressed, in blue.
       When the comments are solved, just delete that comments.
 \item No space before a paragraph. Use two blank lines to seperate paragraphs and
       no space in blank line.
@@ -25,7 +25,7 @@ output: pdf_document
 \item Use ``Table'', ``Figure'', ``Equation'' when citing them. Capitalize the
       first letter, and do not use abbrevations.
 \item Use past tense to describe the data generation in simulation studies.
-\item Figures/tables and other floaters are always positioned with ``tbp''. 
+\item Figures/tables and other floaters are always positioned with ``tbp''.
       Never use ``h'' in floating table/figure.
 \item Label equations, tables and figures which will be referenced and label 
       them use informative names. Don't label those which won't be referenced.
@@ -81,7 +81,7 @@ output: pdf_document
       when printing them out. Same for different dots on plots.
 \item Do not use red and green for different in plots. Some people are 
       red-green blind.
-\item Keep figure aspect ratio correct if the figure has realistic meaning. 
+\item Keep figure aspect ratio correct if the figure has realistic meaning.
       Like a basketball half court should be 50/47.
 \item Remove extra margin in plot.
 \item When change plot size in latex, keep the ratio fixed.
@@ -95,9 +95,9 @@ output: pdf_document
 \begin{enumerate}
 \item Do not change font size for tables. Change table layout to fit instead
       of resizing it. Try to avoid sideways table.
-\item Use booktabs effectively. Never use ``hline'' in table. Use ``toprule'', 
+\item Use booktabs effectively. Never use ``hline'' in table. Use ``toprule'',
       ``midrule'', ``bottomrule''.
-\item When display estimatng results, put variable names in a table, instead of 
+\item When display estimatng results, put variable names in a table, instead of
       their coefficients.
 \item Protect negative sign in the table.
 \item Right adjust the numbers in tables.
@@ -111,7 +111,7 @@ output: pdf_document
       and then introduce the model, method.
 \item When discussing results, set up a few bullet points on what you see in the 
       results. Then say them in a nice flow.
-\item Show simulation settings in detail and clearly so that readers can 
+\item Show simulation settings in detail and clearly so that readers can
       reproduce your results. Always justify your simulation settings.
 \item Put technical details in Appendix.
 \item Use precise expression. Try to keep the language simple and clear.
