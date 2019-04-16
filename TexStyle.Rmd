@@ -8,82 +8,88 @@ output: pdf_document
 # Manuscript style
 \begin{enumerate}
 \item Always spell check.
-\item When revising the paper, answer how the comments are addressed, in blue. 
+\item When revising the paper, answer how the comments are addressed, in blue.
       When the comments are solved, just delete that comments.
 \item No space before a paragraph. Use two blank lines to seperate paragraphs and
       no space in blank line.
-\item Make line width below 80.
-\item Do not start a scentence with symbol.
-\item No comma and long words in inline math mode.
+\item Make line width below 80 characters.
+\item Do not start a scentence with a symbol or a number.
+\item No comma or long words in inline math mode.
 \item Put a space before every left parenthesis.
-\item Explain each symbols after equations/formulas starting with ```where'' so
+\item Explain each symbol after equations/formulas starting with ``where'' so
       that readers fully understand them. Explanations for one equation/formula
-      should put in one single scentence. Never end a scentence with undefined 
-      symbol. No blank line so that no new paragraph is started before or 
-      after math mode (Don't put formula alone as a paragraph).
-\item Put captions for tables on top while captions for figures on bottom.
-\item Use ``Table'', ``Figure'', ``Equation'' when cite them. Make first letter be
-      capital and do not use abbrevation.
+      should be put in one single scentence. Never end a scentence with an
+      undefined symbol. No blank line so that no new paragraph is started before
+      or after math mode (Don't put formula alone as a paragraph).
+\item Put captions for tables on the top while captions for figures on the bottom.
+\item Use ``Table'', ``Figure'', ``Equation'' when citing them. Capitalize the
+      first letter, and do not use abbrevations.
 \item Use past tense to describe the data generation in simulation studies.
-\item Figures/tables and other floaters are always positioned with ``tbp''. 
+\item Figures/tables and other floaters are always positioned with ``tbp''.
       Never use ``h'' in floating table/figure.
 \item Label equations, tables and figures which will be referenced and label 
-      them use informative name. Don't label those which won't be referenced.
+      them use informative names. Don't label those which won't be referenced.
 \item Label and cite each each section if needed. Never use the number to 
       represent a section, like ``Section two is about ...''
 \item No space in object or identifier (file/project/variable/label) names.
-\item Don't repeat title words in keywrods. 
-\item Use ``citep'' when cite paper with parentheses.
+\item Do not include words that have appeared in the title in keywords. 
+\item Use ``citep'' when citing paper with parentheses. If the previous definition
+      has a specific abbreviation, such as the Akaike Information Criterion,
+      use ``citep[AIC;][akaike1973]''.
 \item In math mode, use different sized parentheses for better view.
-\item Define the distribution instead of distribution name only. Like G(a, b), 
-      don't only define that G is shorthand of Gamma.
-\item In math formulas, don't use ``$\times$'' for multiplying unless in a new line.
+\item Define the distribution instead of distribution name only. For example, 
+      for the gamma distribution, don't only define that G is shorthand of Gamma.
+\item In math formulas, do not use ``$\times$'' for multiplication unless in a new line.
 \item Put enough space in math formulas for better view in source.
 \item No inline ``frac''.
 \item Use a consistent labeling system, like sec, fig, tab, eq, alg, etc.
-\item Do not define unnecessary symbol. Use reasonable and simple symbol, eg, 
-      don't use $a_1$ if you don't have an $a_2$, just $a$ is enough.
+\item Do not define unnecessary symbols. Use reasonable and simple symbols. For instance, 
+      do not use $a_1$ if you don't have an $a_2$, just $a$ is enough.
 \item Use ``$\backslash$dd'' for differentiation operator. Define new command: 
       $\backslash$newcommand\{$\backslash$dd\}\{$\backslash$mathrm\{d\}\}.
-\item Cite paper instead of book for appropriate credit.
-\item Close the sentence with a period, even in an equation.
+      The same command can also be found in the ``physics'' package.
+\item Cite the original paper instead of book for appropriate credit.
+\item Close a sentence with a period, even in an equation.
 \item Never start a sentence with ``And''.
-\item Avoid a number starting a new line. Use tilde in tex source file to connect 
+\item Avoid starting a new line with a number. Use tilde in tex source file to connect 
       text and number.
-\item Cite equations through ``eqref'' not ``ref''.
-\item Never use abbreviation, like ``don't''.
+\item Cite equations using ``eqref'' instead of ``ref''.
+\item Never use abbreviations, like ``don't''.
 \item Delete extra empty rows.
-\item Don't use bullet points in a paper. Put them in a nice paragraph.
+\item Don't use bullet points in a paper. Rephrase and organize them into a paragraph.
 \item No brackets in citing sections/tables/figures.
 \item Don't break lines in inline math mode.
 \item Use vector form if possible instead of summation.
-\item When cite a formula/equation, don't use word ``Formula'' or ``Equation'', 
+\item When citing a formula/equation, don't use word ``Formula'' or ``Equation'', 
       just directly cite it using ``eqref''.
-\item Use a different font for code.
+\item Use a different font for code, e.g., ``\textbackslash textsf''.
 \item Learn how to use ``and'' when listing. Don't use ``$\$a, b\$$'', use 
       ``$\$a\$$ and $\$b\$$'' (no comma in inline math mode).
-\item Use uppercase letter for random variable.
+\item Use uppercase letter for random variables.
 \item Any equation needs to be part of a sentence. Punctuation are needed.
 \item Break long inline math expressions into multiple pieces.
+\item No repeated package using in the preamble.
 \item When you list items, the last item has an ``and''.
+\item Keywords are alphabetical; no repetition of words in title.
+\item Never colon a floater.
 \end{enumerate}
 
 
 # Figure style
 \begin{enumerate}
-\item Use pdf or eps for figure file. Don't use png file since it's not vector 
+\item Use pdf or eps for figure file. Do not use png file since it is not vector 
       graphics and will lose resolution when resize.
-\item For plots with different lines, use different line pattern to distinguish 
-      them, not only color, so that readers can tell the difference when print 
-      them out. Same for different dots on plots.
-\item Don't use red and green for different in plots. Some people are 
+\item For line plots with different groups, use different line pattern to
+      distinguish them, not only color, so that readers can tell the difference
+      when printing them out. Same for different dots on plots.
+\item Do not use red and green for different in plots. Some people are 
       red-green blind.
-\item Keep figure aspect ratio correct if the figure has realistic meaning. 
+\item Keep figure aspect ratio correct if the figure has realistic meaning.
       Like a basketball half court should be 50/47.
 \item Remove extra margin in plot.
 \item When change plot size in latex, keep the ratio fixed.
 \item For plot files in tex, name the files informatively.
-\item Do not put the figures in an upper level directory. Should be in the
+\item Do not put the figures in an upper level directory. Should be in the 
       same directory or a subdirectory.
 \end{enumerate}
 
@@ -92,9 +98,9 @@ output: pdf_document
 \begin{enumerate}
 \item Do not change font size for tables. Change table layout to fit instead
       of resizing it. Try to avoid sideways table.
-\item Use booktabs effectively. Never use ``hline'' in table. Use ``toprule'', 
+\item Use booktabs effectively. Never use ``hline'' in table. Use ``toprule'',
       ``midrule'', ``bottomrule''.
-\item When display estimatng results, put variable names in a table, instead of 
+\item When display estimatng results, put variable names in a table, instead of
       their coefficients.
 \item Protect negative sign in the table.
 \item Right adjust the numbers in tables.
@@ -104,25 +110,32 @@ output: pdf_document
 \begin{enumerate}
 \item In general, open the abstract with a background of the research problem.
 \item One sentence about the findings from the real data analysis in abstract.
-\item When introduce the model or method you use, directly start from the data 
-      and then introduce the model, method. Don't write like a review paper.
+\item When introducing the model or method you use, directly start from the data 
+      and then introduce the model, method.
 \item When discussing results, set up a few bullet points on what you see in the 
       results. Then say them in a nice flow.
-\item Show simulation settings in detail and clearly so that readers can 
+\item Show simulation settings in detail and clearly so that readers can
       reproduce your results. Always justify your simulation settings.
 \item Put technical details in Appendix.
-\item Use pricise expression. If you can present clearly use less words, then 
-      don't use more in order to make it longer.
+\item Use precise expression. Try to keep the language simple and clear.
 \end{enumerate}
 
 # bibtex file stype
 \begin{enumerate}
-\item Delete repeated entry.
+\item Delete repeated entries.
 \item Capitalize first letter of every words in title, except articles, 
-      prepositions, or coordinating conjunctions like "a", "in", "and".
+      prepositions, or coordinating conjunctions like ``a'', ``in'', ``and''.
 \item Always check the bibtex information downloaded from website. There might 
-      be wrong or incomplete information.
-\item Use informative label for each entry: "Lastname + First word in title + year".
+      be wrong or incomplete information. Google scholar’s bibtex needs to be 
+      quality controlled.
+\item Use informative label for each entry: ``Lastname + First word in title + year''.
 \item For books, use title style.
-\item Protect capital letters using ``$\{\}$''.
+\item Protect capital letters using ``$\{\}$'', such as in ``Monte Carlo", ``Bayesian",
+      and ``Dirichlet".
+\item Bib entry keys should have a consistent naming convention in bib title, 
+      anything after a colon should be capitalized.
+\item Book needs to have publisher and address fields      .
+\item For unpublished references, always check if they have been published 
+      recently.
+\item All references without page numbers or volume number should be checked.
 \end{enumerate}
