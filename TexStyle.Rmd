@@ -10,20 +10,20 @@ output: pdf_document
 \item Always spell check.
 \item When revising the paper, answer how the comments are addressed, in blue.
       When the comments are solved, just delete that comments.
-\item No space before a paragraph. Use two blank lines to seperate paragraphs and
+\item No space before a paragraph. Use two blank lines to separate paragraphs and
       no space in blank line.
 \item Make line width below 80 characters.
-\item Do not start a scentence with a symbol or a number.
+\item Do not start a sentence with a symbol or a number.
 \item No comma or long words in inline math mode.
 \item Put a space before every left parenthesis.
 \item Explain each symbol after equations/formulas starting with ``where'' so
       that readers fully understand them. Explanations for one equation/formula
-      should be put in one single scentence. Never end a scentence with an
+      should be put in one single sentence. Never end a sentence with an
       undefined symbol. No blank line so that no new paragraph is started before
       or after math mode (Don't put formula alone as a paragraph).
 \item Put captions for tables on the top while captions for figures on the bottom.
 \item Use ``Table'', ``Figure'', ``Equation'' when citing them. Capitalize the
-      first letter, and do not use abbrevations.
+      first letter, and do not use abbreviations.
 \item Use past tense to describe the data generation in simulation studies.
 \item Figures/tables and other floaters are always positioned with ``tbp''.
       Never use ``h'' in floating table/figure.
@@ -51,7 +51,7 @@ output: pdf_document
 \item Cite the original paper instead of book for appropriate credit.
 \item Close a sentence with a period, even in an equation.
 \item Never start a sentence with ``And''.
-\item Avoid starting a new line with a number. Use tilde in tex source file to connect 
+\item Avoid starting a new line with a number. Use tilde in Tex source file to connect 
       text and number.
 \item Cite equations using ``eqref'' instead of ``ref''.
 \item Never use abbreviations, like ``don't''.
@@ -78,7 +78,7 @@ output: pdf_document
 # Figure style
 \begin{enumerate}
 \item Use pdf or eps for figure file. Do not use png file since it is not vector 
-      graphics and will lose resolution when resize.
+      graphics and will lose resolution when re-size.
 \item For line plots with different groups, use different line pattern to
       distinguish them, not only color, so that readers can tell the difference
       when printing them out. Same for different dots on plots.
@@ -88,19 +88,19 @@ output: pdf_document
       Like a basketball half court should be 50/47.
 \item Remove extra margin in plot.
 \item When change plot size in latex, keep the ratio fixed.
-\item For plot files in tex, name the files informatively.
+\item For plot files in Tex, name the files informatively.
 \item Do not put the figures in an upper level directory. Should be in the 
-      same directory or a subdirectory.
+      same directory or a sub-directory.
 \end{enumerate}
 
 
 # Table style
 \begin{enumerate}
 \item Do not change font size for tables. Change table layout to fit instead
-      of resizing it. Try to avoid sideways table.
+      of re-sizing it. Try to avoid sideways table.
 \item Use booktabs effectively. Never use ``hline'' in table. Use ``toprule'',
       ``midrule'', ``bottomrule''.
-\item When display estimatng results, put variable names in a table, instead of
+\item When display estimating results, put variable names in a table, instead of
       their coefficients.
 \item Protect negative sign in the table.
 \item Right adjust the numbers in tables.
@@ -120,15 +120,15 @@ output: pdf_document
 \item Use precise expression. Try to keep the language simple and clear.
 \end{enumerate}
 
-# bibtex file stype
+# BibTeX file style
 \begin{enumerate}
 \item Delete repeated entries.
 \item Capitalize first letter of every words in title, except articles, 
       prepositions, or coordinating conjunctions like ``a'', ``in'', ``and''.
-\item Always check the bibtex information downloaded from website. There might 
-      be wrong or incomplete information. Google scholar’s bibtex needs to be 
+\item Always check the BibTeX information downloaded from website. There might 
+      be wrong or incomplete information. Google scholar’s BibTeX needs to be 
       quality controlled.
-\item Use informative label for each entry: ``Lastname + First word in title + year''.
+\item Use informative label for each entry: ``Last name + First word in title + year''.
 \item For books, use title style.
 \item Protect capital letters using ``$\{\}$'', such as in ``Monte Carlo", ``Bayesian",
       and ``Dirichlet".
@@ -138,4 +138,17 @@ output: pdf_document
 \item For unpublished references, always check if they have been published 
       recently.
 \item All references without page numbers or volume number should be checked.
+\end{enumerate}
+
+# Using git
+\begin{enumerate}
+\item Use git and keep it clean (only keep source file, do not keep generated 
+      file, eg, .out, .log and generated pdf file).
+\end{enumerate}
+
+# File Naming
+\begin{enumerate}
+\item Name the file using a consistent style. The file name should be 
+      informative, no space in it.
+\item Usually a repo should have ``manuscript'', ``data'' and ``code'' files.
 \end{enumerate}
