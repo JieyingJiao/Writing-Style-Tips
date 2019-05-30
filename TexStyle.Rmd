@@ -3,6 +3,8 @@ title: "Manuscript Style Tips"
 author: "Jieying Jiao"
 date: \today
 output: pdf_document
+header-includes:
+   - \usepackage{hyperref}
 ---
 
 # Manuscript style
@@ -72,6 +74,12 @@ output: pdf_document
 \item When you list items, the last item has an ``and''.
 \item Keywords are alphabetical; no repetition of words in title.
 \item Never colon a floater.
+\item Put table/figure first and then discuss in tex source.
+\item No need to define acronyms that are not used the again.
+\item Learn how to use tense in academic writings: \url{https://services.unimelb.edu.au/__data/assets/pdf_file/0009/471294/Using_tenses_in_scientific_writing_Update_051112.pdf}
+\item The first sentence of each paragraph shold serve as a title whenever possible.
+\item Do not start a sentence with but/so/and in formal writing:
+      \url{https://getitwriteonline.com/articles/starting-sentences-and-but/}
 \end{enumerate}
 
 
@@ -91,6 +99,8 @@ output: pdf_document
 \item For plot files in Tex, name the files informatively.
 \item Do not put the figures in an upper level directory. Should be in the 
       same directory or a sub-directory.
+\item Do not put sources of table and figure in the same paragraph (with no 
+      line breaks).
 \end{enumerate}
 
 
