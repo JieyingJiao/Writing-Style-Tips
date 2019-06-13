@@ -80,6 +80,12 @@ header-includes:
 \item The first sentence of each paragraph shold serve as a title whenever possible.
 \item Do not start a sentence with but/so/and in formal writing:
       \url{https://getitwriteonline.com/articles/starting-sentences-and-but/}
+\item When you are using numbers less than 10 in a sentence
+      (in non-mathematical contexts), you should write the numbers out
+      (instead of using their numerical values) i.e. write ``four'' rather than 4
+\item When the ``u'' sound is made like a ``y'' sound, as in uniform or
+      university or unique or useful, you use ``a''; if the ``u'' sound is more like
+      an ``uh'' sound, as in umbrella or umpire or undeniable, you use ``an''.
 \end{enumerate}
 
 
