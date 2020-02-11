@@ -80,6 +80,9 @@ header-includes:
 \item The first sentence of each paragraph shold serve as a title whenever possible.
 \item Do not start a sentence with but/so/and in formal writing:
       \url{https://getitwriteonline.com/articles/starting-sentences-and-but/}
+\item Do not use who did what way to review the literature, which easily becomes an unordered list. 
+      Use your own summary and use citep to back up.
+\item Do not abuse the tilde sign to make a very long character unbreakable.
 \end{enumerate}
 
 
