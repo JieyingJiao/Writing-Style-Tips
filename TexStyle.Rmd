@@ -83,6 +83,8 @@ header-includes:
 \item Do not use who did what way to review the literature, which easily becomes an unordered list. 
       Use your own summary and use citep to back up.
 \item Do not abuse the tilde sign to make a very long character unbreakable.
+\item DO NOT break equations arbitrarily in tex source. The source should be easily readable.
+\item i.e., not i.e.
 \end{enumerate}
 
 
