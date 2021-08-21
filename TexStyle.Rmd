@@ -75,7 +75,7 @@ header-includes:
 \item Keywords are alphabetical; no repetition of words in title.
 \item Never colon a floater.
 \item Put table/figure first and then discuss in tex source.
-\item No need to define acronyms that are not used the again.
+\item Defne acronym at the first appearance. No need to define acronyms that are not used the again.
 \item Learn how to use tense in academic writings: \url{https://services.unimelb.edu.au/__data/assets/pdf_file/0009/471294/Using_tenses_in_scientific_writing_Update_051112.pdf}
 \item The first sentence of each paragraph shold serve as a title whenever possible.
 \item Do not start a sentence with but/so/and in formal writing:
